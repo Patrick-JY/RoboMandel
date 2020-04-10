@@ -1,5 +1,4 @@
 import discord
-
 client = discord.Client()
 
 
@@ -28,4 +27,4 @@ async def on_member_join(member):
     await member.send("Thank you")
    
 
-client.run(SECRET_TOKEN)
+client.run(os.environ['SECRET_TOKEN'])
