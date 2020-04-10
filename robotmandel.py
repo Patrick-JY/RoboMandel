@@ -1,4 +1,5 @@
 import discord
+from boto.s3.connection import S3Connection
 client = discord.Client()
 
 
